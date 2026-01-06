@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(say -v \"Zarvox\" \"NEXT STEP ready\")",
+      "Bash(say:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(python:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)"
+    ]
+  }
+}

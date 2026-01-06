@@ -1,0 +1,68 @@
+# Environment variables (CRITICAL - contains API keys)
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/grants.db
+
+# Uploads and Generated Files
+data/uploads/
+data/generated/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Frontend build
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
