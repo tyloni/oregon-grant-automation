@@ -12,8 +12,8 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 15
     refresh_token_expire_days: int = 7
 
-    # Gemini API
-    gemini_api_key: str
+    # Gemini API (deprecated, keeping for backwards compatibility)
+    gemini_api_key: str = ""
 
     # Groq API
     groq_api_key: str

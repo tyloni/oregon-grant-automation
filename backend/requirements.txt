@@ -18,6 +18,7 @@ email-validator==2.1.0
 
 # LLM
 google-generativeai==0.3.1
+groq==0.4.1
 
 # Web scraping
 beautifulsoup4==4.12.2
